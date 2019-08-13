@@ -15,14 +15,17 @@ Babel — To convert ES6 javascript code to ES5
 Though overwhelming, but you learn how to use these technologies simultaneously.
 
 ## To initialize Node Package Manager
-[X] npm init -y
+[-] npm init -y
 
 ## To install Express and Body-parser
-[X] npm install --save-dev express body-parser
+[-] npm install --save-dev express body-parser
 
 ## To install Babel
-[X] npm install --save-dev @babel/core @babel/cli @babel/node @babel/plugin-transform-runtime @babel/preset-env @babel/register @babel/runtime babel-loader
-[X] create a .babelrc file on root folder with preset and plugins settings
+[-] npm install --save-dev @babel/core @babel/cli @babel/node @babel/plugin-transform-runtime @babel/preset-env @babel/register @babel/runtime babel-loader
+
+[-] create a .babelrc file on root folder with preset and plugins settings
 
 ## To install eslint and airbnb style guide
-[X] npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import
+[-] npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import
+
+[-] create a .eslintrc.js file for eslint config on root folder
