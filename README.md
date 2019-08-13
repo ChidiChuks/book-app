@@ -40,3 +40,15 @@ Though overwhelming, but you learn how to use these technologies simultaneously.
 
 ## Setup Sequelize (An ORM(Object Relational Mapping))
 [-] npm install -g sequelize-cli
+
+## Setup Path
+[-] npm install --save path
+
+## Install PostgreSQL and Sequelize dependencies
+[-] npm install --save sequelize pg pg-hstore
+
+## Initialize Sequelize
+[-] sequelize init
+
+## Installing dotenv
+[-] npm install --save dotenv
