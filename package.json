@@ -1,37 +1,38 @@
 {
-  "name": "book-app",
-  "version": "1.0.0",
-  "description": "In this article, I am going to work you through building a Simple Restful API with:\r NodeJS — For writing Javascript server-side applications\r Express — A NodeJS framework\r PostgreSQL — An open source object-relational database\r Sequelize — An ORM (Object Relational Mapping) of PostreSQL\r Travis — A continuous integration service for Testing Applications\r Coveralls — A web service to help you track your code coverage over time.\r Code Climate — Provides automated code review for maintainability and test coverage.\r Babel — To convert ES6 javascript code to ES5\r Though overwhelming, but you learn how to use these technologies simultaneously.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ChidiChuks/book-app.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ChidiChuks/book-app/issues"
-  },
-  "homepage": "https://github.com/ChidiChuks/book-app#readme",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/node": "^7.5.5",
-    "@babel/plugin-transform-runtime": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
-    "@babel/runtime": "^7.5.5",
-    "babel-loader": "^8.0.6",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
-  }
+    "name": "book-app",
+    "version": "1.0.0",
+    "description": "In this article, I am going to work you through building a Simple Restful API with:\r NodeJS — For writing Javascript server-side applications\r Express — A NodeJS framework\r PostgreSQL — An open source object-relational database\r Sequelize — An ORM (Object Relational Mapping) of PostreSQL\r Travis — A continuous integration service for Testing Applications\r Coveralls — A web service to help you track your code coverage over time.\r Code Climate — Provides automated code review for maintainability and test coverage.\r Babel — To convert ES6 javascript code to ES5\r Though overwhelming, but you learn how to use these technologies simultaneously.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --exec babel-node ./api/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChidiChuks/book-app.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ChidiChuks/book-app/issues"
+    },
+    "homepage": "https://github.com/ChidiChuks/book-app#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.5.5",
+        "@babel/core": "^7.5.5",
+        "@babel/node": "^7.5.5",
+        "@babel/plugin-transform-runtime": "^7.5.5",
+        "@babel/preset-env": "^7.5.5",
+        "@babel/register": "^7.5.5",
+        "@babel/runtime": "^7.5.5",
+        "babel-loader": "^8.0.6",
+        "eslint": "^6.1.0",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2"
+    }
 }

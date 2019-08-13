@@ -29,3 +29,8 @@ Though overwhelming, but you learn how to use these technologies simultaneously.
 [-] npm install --save-dev eslint eslint-config-airbnb-base eslint-plugin-import
 
 [-] create a .eslintrc.js file for eslint config on root folder
+
+## To install nodemon (a watcher for node)
+[-] npm install -g nodemon
+
+[-] setup dev-nodemon in scripts block of code of package.json file
