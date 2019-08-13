@@ -34,3 +34,9 @@ Though overwhelming, but you learn how to use these technologies simultaneously.
 [-] npm install -g nodemon
 
 [-] setup dev-nodemon in scripts block of code of package.json file
+
+## Setup PostgreSQL Database
+[-] download (install) the postgreSQL
+
+## Setup Sequelize (An ORM(Object Relational Mapping))
+[-] npm install -g sequelize-cli
