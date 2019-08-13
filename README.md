@@ -15,11 +15,11 @@ Babel — To convert ES6 javascript code to ES5
 Though overwhelming, but you learn how to use these technologies simultaneously.
 
 ## To initialize Node Package Manager
-[x] npm init -y
+[o] npm init -y
 
 ## To install Express and Body-parser
-[x] npm install --save-dev express body-parser
+[o] npm install --save-dev express body-parser
 
 ## To install Babel
-[x] npm install --save-dev @babel/core @babel/cli @babel/node @babel/plugin-transform-runtime @babel/preset-env @babel/register @babel/runtime babel-loader
+[o] npm install --save-dev @babel/core @babel/cli @babel/node @babel/plugin-transform-runtime @babel/preset-env @babel/register @babel/runtime babel-loader
 
