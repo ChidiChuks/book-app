@@ -52,3 +52,17 @@ Though overwhelming, but you learn how to use these technologies simultaneously.
 
 ## Installing dotenv
 [-] npm install --save dotenv
+
+## Create a .env file
+[-] with the necessary properties and values {DB_NAME, DB_USER, DB_PASS, DB_PORT, DB_HOST, SECRET_KEY}
+
+## Create Databases, Model, Migration
+[-] create the databases --- {pg_ctl -D "C:\Program Files\PostgreSQL\10\data" start --- This line of code ensures that PostgreSQL server is running or has started or activated} --- createdb books | createdb book_test
+
+[-] create the model ----- {sequelize model:create --name Book --attributes title:string, price:string, description:string}
+
+[-] refactor migration file --- {sequelize db:migrate}
+
+
+## Create Services, Controllers, Routes and Utilities
+[-] creating four folders for codes each naming {services, controllers, routes, utilities}
