@@ -66,3 +66,6 @@ Though overwhelming, but you learn how to use these technologies simultaneously.
 
 ## Create Services, Controllers, Routes and Utilities
 [-] creating four folders for codes each naming {services, controllers, routes, utilities}
+
+## Write test cases for Endpoints
+[-] install mocha, chai and nyc --- npm install --save-dev mocha chai chai-http nyc 
