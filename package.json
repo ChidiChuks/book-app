@@ -1,7 +1,7 @@
 {
     "name": "book-app",
     "version": "1.0.0",
-    "description": "In this article, I am going to work you through building a Simple Restful API with:\r NodeJS — For writing Javascript server-side applications\r Express — A NodeJS framework\r PostgreSQL — An open source object-relational database\r Sequelize — An ORM (Object Relational Mapping) of PostreSQL\r Travis — A continuous integration service for Testing Applications\r Coveralls — A web service to help you track your code coverage over time.\r Code Climate — Provides automated code review for maintainability and test coverage.\r Babel — To convert ES6 javascript code to ES5\r Though overwhelming, but you learn how to use these technologies simultaneously.",
+    "description": "In this article, I am going to work you through building a Simple Restful API with:\r NodeJS — For writing Javascript server-side applications\r Express — A NodeJS framework\r PostgreSQL — An open source object-relational database\r Sequelize — An ORM (Object Relational Mapping) of PostgreSQL\r Travis — A continuous integration service for Testing Applications\r Coveralls — A web service to help you track your code coverage over time.\r Code Climate — Provides automated code review for maintainability and test coverage.\r Babel — To convert ES6 javascript code to ES5\r Though overwhelming, but you learn how to use these technologies simultaneously.",
     "main": "index.js",
     "scripts": {
         "dev": "nodemon --exec babel-node ./api/index.js",
